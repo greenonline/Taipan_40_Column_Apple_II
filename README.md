@@ -22,7 +22,7 @@ A patch is required due to an omission in the book (page 49), in order to be abl
 
 #### Extraneous `V1`
 
-The extraneous `V1` has *already* been removed from line 5040
+The extraneous `V1` has *already* been removed from line 5040 (page 200)
 
 ```
 5040 DATA V1 " : "
