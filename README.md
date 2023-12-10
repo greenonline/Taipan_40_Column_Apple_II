@@ -7,7 +7,28 @@ The code is provided on both a per-chapter basis and as the combined code.
 
 NOTE: Some typos may remain - the listings in the PDF are able to be copied and pasted but the terrible "digital/chequebook-style" font and formatting used cause a huge number of "OCR_type" typos when pasted.
 
-See also:
+### Errata from book
+
+#### Tea purchasing
+
+A patch is required due to an omission in the book (page 49), in order to be able to purchase tea: 
+
+```
+261 IF X$ = "S" THEN X1 = 1
+262 IF X$ = "T" THEN X1 = 2 
+263 IF X$ = "A" THEN X1 = 3 
+264 IF X$ = "P" THEN X1 = 4 
+```
+
+#### Extraneous `V1`
+
+The extraneous `V1` has *already* been removed from line 5040
+
+```
+5040 DATA V1 " : "
+
+```
+### See also
 - [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][3]
 - [Taipan in Applesoft BASIC][4]
 
