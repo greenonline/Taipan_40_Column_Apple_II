@@ -38,7 +38,10 @@ However, `CHR$(133) is only a valid symbol on the TRS-80 (vertical bar). The `CH
 ```
 150 FOR I = 0 TO 5: VTAB 5 + I:PRINT G$(I):VTAB 5 + I:HTAB 11: Q=SG(I):GOSUB 1330:VTAB 5 + I:HTAB 26: Q = GG(I):GOSUB 1330: NEXT I: INVERSE: PRINT A$: NORMAL: RETURN
 ```
+Or you could replace `CHR$(133)` with `CHR$(124)`, which is a thin vertical bar.
+
 For more information, see [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][4]
+
 #### Missing space in goods table
 
 The header for the goods table, is printed in line 141 (page 39)
