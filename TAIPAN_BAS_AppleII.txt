@@ -1,4 +1,3 @@
-
 5 REM INITIALIZATION (10-50)
 10 HOME: A$ = "                                        ":W$ = "ELDER BROTHER WU":LY$ = "LI YUEN":YS$ = "YANATO & SMYTHE":TC$ = "O, S, T, A, P, OR R"
 11 B$="                                       "
@@ -12,7 +11,7 @@
 40 FOR I = 0 TO 9: FOR J = 0 TO 5:READ AP(I,J):AP(I,J) = AP(I,J) * 6 ^ (5 - J): NEXT J ,I: GOSUB 180
 
 
-50 FOR I = 0 TO 9:READ LO(I):NEXT I:D = 1000: V=1860: GT = 1: C=400:MW = 50:SH = MW:SR = 1: G=1:V(0) = 1: GOSUB 5000: X$ ="":GOSUB 590: HOME:GOTO 120
+50 FOR I = 0 TO 9:READ LO(I):NEXT I:D = 1000: Y=1860: GT = 1: C=400:MW = 50:SH = MW:SR = 1: G=1:V(0) = 1: GOSUB 5000: X$ ="":GOSUB 590: HOME:GOTO 120
 
 55 REM GET$ SUBROUTINE (60-64)
 60 POKE -16368, 0
@@ -49,7 +48,7 @@
 
 
 
-171 IF M < D THEN M = 0
+171 IF M < 0 THEN M = 0
 172 RETURN
 
 175 REM PRICE VARIATION SUBROUTINE (180)
