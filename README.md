@@ -67,10 +67,16 @@ should be
 5350 VTAB B+1: HTAB40-A:PRINT LEFT$ (CH$(B) ,A)," ";
 ```
 ### See also
-- [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][4]
-- [Taipan in Applesoft BASIC][5]
+ - [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][4]
+ - [Taipan in Applesoft BASIC][5]
 
+### Related repos
 
+ - [CommanderX16Taipan](https://github.com/greenonline/CommanderX16Taipan)
+ - [BBCTaipan](https://github.com/greenonline/BBCTaipan)
+ - [!!!NOT!!! TRS80Taipan](https://github.com/greenonline/TRS80Taipan)
+ - [MMBASICTaipan](https://github.com/greenonline/MMBASICTaipan)
+ - [MacTaipan](https://github.com/greenonline/MacTaipan)
 
   [1]: https://taipangame.com/pdf/TaipanAHistoricalAdventureForTheAppleComputerAppleIIEdition.pdf
   [2]: https://taipangame.com/
