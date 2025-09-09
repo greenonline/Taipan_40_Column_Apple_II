@@ -56,6 +56,9 @@ However, adding a space either before the `ABOARD` or between `HONG` and `KONG` 
 ```
 141 VTAB 4: INVERSE:PRINT "GOODS    ABOARD SHIP    HONG KONG GODOWN":NORMAL
 ```
+
+[![Port screen shoeing banner full width][4]][4]
+
 #### Extraneous comma or semicolon?
 
 In line 5350 (page 201), there is a combination of `,;`. However, surely the semicolon is not needed..?
@@ -67,8 +70,8 @@ should be
 5350 VTAB B+1: HTAB40-A:PRINT LEFT$ (CH$(B) ,A)," ";
 ```
 ### See also
- - [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][4]
- - [Taipan in Applesoft BASIC][5]
+ - [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][5]
+ - [Taipan in Applesoft BASIC][6]
 
 ### Related repos
 
@@ -81,5 +84,6 @@ should be
   [1]: https://taipangame.com/pdf/TaipanAHistoricalAdventureForTheAppleComputerAppleIIEdition.pdf
   [2]: https://taipangame.com/
   [3]: https://i.stack.imgur.com/GPdtU.png
-  [4]: https://retrocomputing.stackexchange.com/q/28127/202
-  [5]: https://gr33nonline.wordpress.com/2023/11/26/taipan-in-applesoft-basic/
+  [4]: https://i.sstatic.net/wiF5k7WY.png
+  [5]: https://retrocomputing.stackexchange.com/q/28127/202
+  [6]: https://gr33nonline.wordpress.com/2023/11/26/taipan-in-applesoft-basic/
