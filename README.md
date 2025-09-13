@@ -40,7 +40,7 @@ However, `CHR$(133) is only a valid symbol on the TRS-80 (vertical bar). The `CH
 ```
 Or you could replace `CHR$(133)` with `CHR$(124)`, which is a thin vertical bar.
 
-For more information, see [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][4]
+For more information, see [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][5]
 
 #### Missing space in goods table
 
