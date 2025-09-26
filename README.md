@@ -9,7 +9,7 @@ NOTE: Some typos may remain - the listings in the PDF are able to be copied and 
 
 ### Errata from book
 
-*This list just keeps on growin' and the years keep on passin'*.
+*The list just keeps on growin' as the years keep on passin'*.
 
 #### Tea purchasing
 
@@ -72,9 +72,9 @@ should be
 5350 VTAB B+1: HTAB40-A:PRINT LEFT$ (CH$(B) ,A)," ";
 ```
 
-#### SFL$ - what is it meant to be?
+#### `SFL$` - what is it meant to be?
 
-Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is neither declared nor instantiated. Is it meant to be a surrender flag to be printed atop the ship's mast? As it stands currently, it is an empty string and nothing is ever printed.
+Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is neither declared nor instantiated. Is it meant to be a surrender flag to be printed atop the ship's mast? At best, as it stands currently, `SFL$` is interpreted as an empty string and nothing is ever printed.
 
 ### See also
 
@@ -83,6 +83,7 @@ Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is neither declared nor instan
 
 ### Related repos
 
+ - [PETTaipan](https://github.com/greenonline/PETTaipan)
  - [CommanderX16Taipan](https://github.com/greenonline/CommanderX16Taipan)
  - [BBCTaipan](https://github.com/greenonline/BBCTaipan)
  - [!!!NOT!!! TRS80Taipan](https://github.com/greenonline/TRS80Taipan)
