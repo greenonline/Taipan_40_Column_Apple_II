@@ -74,7 +74,7 @@ should be
 
 #### SFL$ - what is it meant to be?
 
-Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is never defined. Is it meant to be a surrender flag to be printed on to of the ship's mast?
+Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is neither declared nor instantiated. Is it meant to be a surrender flag to be printed atop the ship's mast? As it stands currently, it is an empty string and nothing is ever printed.
 
 ### See also
 
