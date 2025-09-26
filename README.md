@@ -9,9 +9,11 @@ NOTE: Some typos may remain - the listings in the PDF are able to be copied and 
 
 ### Errata from book
 
+*This list just keeps on growin' and the years keep on passin'*.
+
 #### Tea purchasing
 
-A patch is required due to an omission in the book (page 49), in order to be able to purchase tea: 
+A patch is required due to an omission in the book (page 49), chatper six, in order to be able to purchase tea: 
 
 ```
 261 IF X$ = "S" THEN X1 = 1
@@ -69,7 +71,13 @@ should be
 ```
 5350 VTAB B+1: HTAB40-A:PRINT LEFT$ (CH$(B) ,A)," ";
 ```
+
+#### SFL$ - what is it meant to be?
+
+Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is never defined. Is it meant to be a surrender flag to be printed on to of the ship's mast?
+
 ### See also
+
  - [Looking for an accurate Apple II(e) character set - in particular, what is CHR$(133)?][5]
  - [Taipan in Applesoft BASIC][6]
 
