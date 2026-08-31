@@ -89,6 +89,7 @@ Line 1240 contains a `PRINT SFL$`, and yet `SFL$` is neither declared nor instan
  - [!!!NOT!!! TRS80Taipan](https://github.com/greenonline/TRS80Taipan)
  - [MMBASICTaipan](https://github.com/greenonline/MMBASICTaipan)
  - [MacTaipan](https://github.com/greenonline/MacTaipan)
+ - [Taipan for CP/M](https://github.com/greenonline/Taipan-for-CP-M)
 
   [1]: https://taipangame.com/pdf/TaipanAHistoricalAdventureForTheAppleComputerAppleIIEdition.pdf
   [2]: https://taipangame.com/
